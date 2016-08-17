@@ -1,0 +1,81 @@
+body{
+	background-color: blue;
+}
+img{
+	height: 35px;
+	margin: auto;
+	display: block;
+}
+.signup{
+	background-color: white;
+	border: 1px solid black;
+	width: 320px;
+	margin: auto;
+	/*height: 75px;*/
+}
+.form_div{
+	padding: 40px;
+}
+body * {
+    box-sizing: border-box;
+}
+h3{
+	text-align: center;
+}
+.signup label{
+	display: block;
+}
+a{
+	display: block;
+}
+.account{
+	text-align: center;
+	font-color: white;
+}
+.account a {
+    color: white;
+}
+
+.account a:hover {
+ color: #E7F1F9 
+}
+
+.account p { 
+	margin-bottom: 40px 
+	/*font-color: white;*/
+}
+
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+button[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
